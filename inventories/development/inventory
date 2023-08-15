@@ -1,0 +1,4 @@
+[test_hosts]
+ubt1 ansible_host=<ipv4>
+[more_test_hosts]
+ubt2 ansible_host=<ipv4>
