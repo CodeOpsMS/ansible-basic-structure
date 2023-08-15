@@ -1,0 +1,19 @@
+name: Build and test for dev
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    permissions:
+        id-token: write
+        actions: read
+        contents: write
+        packages: write
+        issues: read
+        checks: write
+        pull-requests: write
+    uses: CodeOpsMS/github-actions-codeopsms-lib/.github/workflows/testing_ansible_playbooks.yml@main
+
