@@ -1,0 +1,4 @@
+#!/bin/bash
+VAULT_ID="keeexv2ilrp7rohec5ses2de4e"
+VAULT_ANSIBLE_NAME="Ansible Vault"
+op item get "Ansible Vault" --fields password
