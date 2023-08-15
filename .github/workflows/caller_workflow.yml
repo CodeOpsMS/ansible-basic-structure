@@ -17,4 +17,4 @@ jobs:
       checks: write
       pull-requests: write
     uses: >-
-      CodeOpsMS/github-actions-codeopsms-lib/.github/workflows/testing_ansible_playbooks.yml@main
+      CodeOpsMS/github-actions-codeopsms-lib/.github/workflows/push_testing_ansible_playbooks.yml@main
