@@ -1,5 +1,5 @@
 ---
 - name: First demo playbook
-  hosts: test_hosts
+  hosts: localhost
   roles:
     - hello_ansible
