@@ -14,7 +14,7 @@ updates:
       # Check for updates to GitHub Actions every week
       interval: "weekly"
 
-  - package-ecosystem: "ansible"
+  - package-ecosystem: "docker"
     directory: "/"
     schedule:
       # Check for updates to terraform providers and modules every week
