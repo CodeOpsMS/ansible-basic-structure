@@ -1,0 +1,5 @@
+---
+- name: First demo playbook
+  hosts: test_hosts
+  roles:
+    - hello_ansible
